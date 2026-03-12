@@ -1,0 +1,46 @@
+--Linux Bash--
+
+
+# Docker
+docker --version
+
+# Kubernetes (kubectl)
+kubectl version --client
+
+# Terraform
+terraform -version
+
+# HashiCorp Vault
+vault --version
+
+# Jenkins (CLI, якщо встановлено)
+jenkins --version
+
+# Nginx
+nginx -v
+
+# Django (через Python)
+python3 -m django --version
+
+--Windows PowerShell/CMD--
+
+# Docker
+docker --version
+
+# Kubernetes
+kubectl version --client
+
+# Terraform
+terraform -version
+
+# HashiCorp Vault
+vault --version
+
+# Jenkins (CLI)
+jenkins --version
+
+# Nginx
+nginx -v
+
+# Django
+python -m django --version
