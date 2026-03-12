@@ -1,0 +1,50 @@
+# ---- Docker ----
+*.log
+docker-compose.override.yml
+.dockerignore
+
+# ---- Kubernetes ----
+*.yaml
+*.yml
+.kube/
+.kubernetes/
+*.crt
+*.key
+
+# ---- Terraform (офіційно: https://developer.hashicorp.com/terraform/cli/commands/ignore)
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# ---- HashiCorp Vault / Consul ----
+vault-config.json
+consul-config.json
+*.hcl
+
+# ---- Jenkins ----
+*.jenkins
+jenkins.log
+secrets/
+workspace/
+
+# ---- Nginx ----
+logs/
+*.pid
+*.conf.backup
+
+# ---- Django (офіційно: https://github.com/github/gitignore/blob/main/Python.gitignore)
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.log
+*.pot
+*.mo
+*.egg-info/
+.env
+staticfiles/
+media/
